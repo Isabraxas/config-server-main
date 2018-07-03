@@ -3,7 +3,7 @@ server:
 
 eureka:
   instance:
-    appname: accounts
+    appname: statement
     hostname: 206.81.15.0
     prefer-ip-address: false
 
