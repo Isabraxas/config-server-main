@@ -57,8 +57,6 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
                     <outputDirectory>dist</outputDirectory>
-                    <!--                    <outputDirectory>${project.basedir}/../dist</outputDirectory>
-                                        <executable>true</executable>  -->
 				</configuration>
 			</plugin>
 		</plugins>
