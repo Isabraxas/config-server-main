@@ -10,13 +10,8 @@ node {
    stage('Build') {
        echo "building ${env.BUILD_ID}"
         dir('server-config') {
-            //try {
-                sh "mvn -Dbuild.number=${BUILD_NUMBER} -Dmaven.test.failure.ignore -DskipTests clean package"
-            //} catch (any) {
-            //    currentBuild.result = 'SUCCESS'
-            //    echo any
-            //}
-            archive "target/configServer-0.1.${BUILD_NUMBER}.jar"
+            sh "mvn -Dbuild.number=${BUILD_NUMBER} -Dmaven.test.failure.ignore -DskipTests clean package"
+            archive "target/server-config-0.1.${BUILD_NUMBER}.jar"
         }
    }
    stage('test') {
