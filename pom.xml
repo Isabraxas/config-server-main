@@ -8,7 +8,7 @@
     <version>0.1.${build.number}</version>
     <packaging>jar</packaging>
 
-    <name>configServer</name>
+    <name>server-config</name>
     <description>Config Server for Viridian applications</description>
 
     <parent>
