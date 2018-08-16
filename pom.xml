@@ -65,6 +65,7 @@
                 <configuration>
                     <outputDirectory>dist</outputDirectory>
                     <executable>true</executable>
+                    <finalName>${project.name}-0.1.${build.number}</finalName>
                 </configuration>
             </plugin>
         </plugins>
