@@ -5,7 +5,7 @@
 
     <groupId>com.viridian</groupId>
     <artifactId>configServer</artifactId>
-    <version>0.0.4</version>
+    <version>0.1.${build.number}</version>
     <packaging>jar</packaging>
 
     <name>configServer</name>
@@ -65,7 +65,6 @@
                 <configuration>
                     <outputDirectory>dist</outputDirectory>
                     <executable>true</executable>
-                    <finalName>${project.name}-0.1.${build.number}</finalName>
                 </configuration>
             </plugin>
         </plugins>
