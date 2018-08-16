@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.viridian</groupId>
-    <artifactId>configServer</artifactId>
+    <artifactId>server-config</artifactId>
     <version>0.1.${build.number}</version>
     <packaging>jar</packaging>
 
@@ -63,7 +63,6 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <outputDirectory>dist</outputDirectory>
                     <executable>true</executable>
                 </configuration>
             </plugin>
